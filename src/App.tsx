@@ -1,26 +1,40 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+import { Informations } from './components/informations';
+import { Header } from './components/header';
+import { ContextProvider } from './controller';
+import { Experience } from './components/experience';
+import { Skills } from './components/skills';
+import { Contact } from './components/contact';
+import { Languages } from './components/languages';
+import { Education } from './components/education';
+import { Projects } from './components/projects';
+import { Links } from './components/links';
+export const App = () => {
+	return (
+		<ContextProvider>
+			<div className='mb-10'>
+				<Header />
+				<div className='flex flex-col lg:flex-row gap-12 mt-14 px-14'>
+					<div className='flex flex-col gap-10 w-full lg:w-3/12 items-center lg:items-center'>
+						<Informations />
+						<Contact />
+					</div>
+					<div className='w-full lg:w-3/12 '>
+						<Experience />
+					</div>
+					<div className='flex flex-col gap-4 w-full lg:w-3/12 items-center lg:items-start'>
+						<Skills />
+						<Languages />
+						<Education />
+						<Links />
+					</div>
+					<div className='w-full lg:w-3/12'>
+						<Projects />
+					</div>
+				</div>
+			</div>
+		</ContextProvider>
+	);
+};
 
 export default App;
