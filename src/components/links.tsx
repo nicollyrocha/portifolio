@@ -41,7 +41,7 @@ export const Links = () => {
 						className='cursor-pointer underline text-pink-400'
 						onClick={() =>
 							window.open(
-								'https://drive.google.com/file/d/1WEj70AiqI6Jx7E-ggByh8hj7jLsCnYkw/view?usp=sharing'
+								'https://drive.google.com/file/d/1HNtrRyxs7EZPDrfKugOOB1SIf30F651G/view?usp=sharing'
 							)
 						}
 					>
