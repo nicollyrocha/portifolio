@@ -10,8 +10,8 @@ export const Header = () => {
 			<div className='hidden sm:flex sm:w-2/12 lg:w-fit'></div>
 			<div className='w-full sm:w-fit'>
 				{language === 'BR'
-					? 'Bem vindo(a) ao meu portifolio!'
-					: 'Welcome to my portifolio!'}
+					? 'Bem vindo(a) ao meu portfólio!'
+					: 'Welcome to my portfolio!'}
 			</div>
 			<div className='flex flex-row gap-2'>
 				<img
