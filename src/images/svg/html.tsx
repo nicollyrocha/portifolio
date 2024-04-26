@@ -1,5 +1,5 @@
 export const HtmlSvg = () => (
-	<svg style={{ width: 50, height: 50 }} viewBox='0 0 128 128'>
+	<svg style={{ width: 35, height: 35 }} viewBox='0 0 128 128'>
 		<path
 			fill='#FF69B4'
 			d='M19.037 113.876L9.032 1.661h109.936l-10.016 112.198-45.019 12.48z'

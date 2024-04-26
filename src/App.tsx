@@ -9,10 +9,11 @@ import { Languages } from './components/languages';
 import { Education } from './components/education';
 import { Projects } from './components/projects';
 import { Links } from './components/links';
+import { Footer } from './components/footer';
 export const App = () => {
 	return (
 		<ContextProvider>
-			<div className='mb-10'>
+			<div className='mb-10 lg:mb-0'>
 				<Header />
 				<div className='flex flex-col lg:flex-row gap-12 mt-14 px-14'>
 					<div className='flex flex-col gap-10 w-full lg:w-3/12 items-center lg:items-center'>
@@ -22,7 +23,7 @@ export const App = () => {
 					<div className='w-full lg:w-3/12 '>
 						<Experience />
 					</div>
-					<div className='flex flex-col gap-4 w-full lg:w-3/12 items-center lg:items-start'>
+					<div className='flex flex-col gap-3 w-full lg:w-3/12 items-center lg:items-start'>
 						<Skills />
 						<Languages />
 						<Education />
@@ -32,6 +33,7 @@ export const App = () => {
 						<Projects />
 					</div>
 				</div>
+				<Footer />
 			</div>
 		</ContextProvider>
 	);

@@ -1,5 +1,5 @@
 export const CssSvg = () => (
-	<svg style={{ width: 50, height: 50 }} viewBox='0 0 128 128'>
+	<svg style={{ width: 35, height: 35 }} viewBox='0 0 128 128'>
 		<path
 			fill='#FF69B4'
 			d='M18.814 114.123L8.76 1.352h110.48l-10.064 112.754-45.243 12.543-45.119-12.526z'

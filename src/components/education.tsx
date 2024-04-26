@@ -4,7 +4,7 @@ export const Education = () => {
 	const { language } = useContextProject();
 
 	return (
-		<div className='flex flex-col gap-4 lg:w-fit items-center lg:items-start'>
+		<div className='flex flex-col gap-2 lg:w-fit items-center lg:items-start'>
 			{language === 'BR' && (
 				<>
 					<div className='flex gap-2'>

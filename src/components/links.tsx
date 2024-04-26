@@ -9,7 +9,7 @@ export const Links = () => {
 				<div className='font-semibold'>Links</div>
 				<span className='material-icons text-pink-400'>link</span>
 			</div>
-			<div className='flex flex-row lg:flex-col gap-2'>
+			<div className='flex flex-row gap-4'>
 				<div
 					className='cursor-pointer underline text-pink-400'
 					onClick={() => window.open('https://github.com/nicollyrocha')}
