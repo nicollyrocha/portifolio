@@ -2,7 +2,7 @@ export const projects = [
 	{
 		name: 'Loja Virtual para teste de processo seletivo',
 		nameEnglish: 'Virtual store for a test from a process selection',
-		link: 'https://mks-sistemas-loja.vercel.app/',
+		link: '',
 		github: 'https://github.com/nicollyrocha/mks-sistemas-loja',
 	},
 	{
