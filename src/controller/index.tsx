@@ -12,13 +12,13 @@ export const _useController = () => {
   return { language, setLanguage };
 };
 
-const _Controller = createContext({} as ReturnType<typeof _useController>);
+const controller = createContext({} as ReturnType<typeof _useController>);
 
-export const useContextProject = () => useContext(_Controller);
+export const useContextProject = () => useContext(controller);
 
 export const ContextProvider: React.FC<Props> = ({ children }) => {
-  const controller = _useController();
+  const useController = _useController();
   return (
-    <_Controller.Provider value={controller}>{children}</_Controller.Provider>
+    <controller.Provider value={useController}>{children}</controller.Provider>
   );
 };
