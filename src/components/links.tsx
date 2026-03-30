@@ -20,7 +20,7 @@ export const Links = () => {
           className="cursor-pointer underline text-pink-400"
           onClick={() =>
             window.open(
-              "https://www.linkedin.com/in/nicollyrochadacaldossantos/"
+              "https://www.linkedin.com/in/nicollyrochadacaldossantos/",
             )
           }
         >
@@ -31,7 +31,7 @@ export const Links = () => {
             className="cursor-pointer underline text-pink-400"
             onClick={() =>
               window.open(
-                "https://drive.google.com/file/d/1gpckQFRrauGhYAn5YTcyC5ZvUogp5mdW/view?usp=sharing"
+                "https://drive.google.com/file/d/1kY2rxH0z1wMNG0Ygz6VGKRF4ehY05O6l/view?usp=sharing",
               )
             }
           >
@@ -43,7 +43,7 @@ export const Links = () => {
             className="cursor-pointer underline text-pink-400"
             onClick={() =>
               window.open(
-                "https://drive.google.com/file/d/1_fV3VMv7eTJuI0Ze59Ng0ad4zvO9P5iL/view?usp=sharing"
+                "https://drive.google.com/file/d/1qfg7rnsnFDzFmjMJCV2vSInErCH0La2C/view?usp=sharing",
               )
             }
           >
