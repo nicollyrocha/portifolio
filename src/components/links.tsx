@@ -1,7 +1,7 @@
-import { useContextProject } from "../controller";
+import { useContextProject } from '../controller'
 
 export const Links = () => {
-  const { language } = useContextProject();
+  const { language } = useContextProject()
 
   return (
     <div className="flex flex-col gap-2 items-center lg:items-start">
@@ -12,7 +12,7 @@ export const Links = () => {
       <div className="flex flex-row gap-4">
         <div
           className="cursor-pointer underline text-pink-400"
-          onClick={() => window.open("https://github.com/nicollyrocha")}
+          onClick={() => window.open('https://github.com/nicollyrocha')}
         >
           Github
         </div>
@@ -20,30 +20,30 @@ export const Links = () => {
           className="cursor-pointer underline text-pink-400"
           onClick={() =>
             window.open(
-              "https://www.linkedin.com/in/nicollyrochadacaldossantos/",
+              'https://www.linkedin.com/in/nicollyrochadacaldossantos/',
             )
           }
         >
           Linkedin
         </div>
-        {language === "BR" && (
+        {language === 'BR' && (
           <div
             className="cursor-pointer underline text-pink-400"
             onClick={() =>
               window.open(
-                "https://drive.google.com/file/d/1kY2rxH0z1wMNG0Ygz6VGKRF4ehY05O6l/view?usp=sharing",
+                'https://drive.google.com/file/d/1I46xNG23m5809iKcbOhCOs4KU2ah0mxB/view?usp=sharing',
               )
             }
           >
             Currículo
           </div>
         )}
-        {language === "US" && (
+        {language === 'US' && (
           <div
             className="cursor-pointer underline text-pink-400"
             onClick={() =>
               window.open(
-                "https://drive.google.com/file/d/1qfg7rnsnFDzFmjMJCV2vSInErCH0La2C/view?usp=sharing",
+                'https://drive.google.com/file/d/1KXTl9uI6iTmb8gZxNKowNM-wuB0ESt0C/view?usp=sharing',
               )
             }
           >
@@ -52,5 +52,5 @@ export const Links = () => {
         )}
       </div>
     </div>
-  );
-};
+  )
+}
