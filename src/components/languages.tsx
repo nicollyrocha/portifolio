@@ -4,27 +4,26 @@ export const Languages = () => {
 	const { language } = useContextProject();
 
 	return (
-		<div className='flex flex-col gap-2 w-full lg:items-start items-center'>
-			{language === 'BR' && (
-				<>
-					<div className='flex gap-2 text-center lg:text-left'>
-						<div className='font-semibold'>Idiomas</div>
-						<span className='material-icons text-pink-400'>language</span>
-					</div>
-					<div>• Português (nativo)</div>
-					<div>• Inglês (avançado)</div>
-				</>
-			)}
-			{language === 'US' && (
-				<>
-					<div className='flex gap-2'>
-						<div className='font-semibold'>Languages</div>
-						<span className='material-icons text-pink-400'>language</span>
-					</div>
-					<div>• Portuguese (native)</div>
-					<div>• English (advanced)</div>
-				</>
-			)}
+		<div className='flex flex-col gap-2 w-full bg-white border border-brand-100 rounded-xl p-4'>
+			<div className='flex gap-2 items-center'>
+				<span className='material-icons text-brand-400 text-xl'>language</span>
+				<div className='font-semibold text-gray-800'>
+					{language === 'BR' ? 'Idiomas' : 'Languages'}
+				</div>
+			</div>
+			<div className='text-sm text-gray-600 flex flex-col gap-1'>
+				{language === 'BR' ? (
+					<>
+						<div>Português (nativo)</div>
+						<div>Inglês (avançado)</div>
+					</>
+				) : (
+					<>
+						<div>Portuguese (native)</div>
+						<div>English (advanced)</div>
+					</>
+				)}
+			</div>
 		</div>
 	);
 };

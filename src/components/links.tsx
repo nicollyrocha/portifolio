@@ -1,56 +1,42 @@
-import { useContextProject } from '../controller'
+import { useContextProject } from '../controller';
 
 export const Links = () => {
-  const { language } = useContextProject()
+	const { language } = useContextProject();
 
-  return (
-    <div className="flex flex-col gap-2 items-center lg:items-start">
-      <div className="flex gap-2">
-        <div className="font-semibold">Links</div>
-        <span className="material-icons text-pink-400">link</span>
-      </div>
-      <div className="flex flex-row gap-4">
-        <div
-          className="cursor-pointer underline text-pink-400"
-          onClick={() => window.open('https://github.com/nicollyrocha')}
-        >
-          Github
-        </div>
-        <div
-          className="cursor-pointer underline text-pink-400"
-          onClick={() =>
-            window.open(
-              'https://www.linkedin.com/in/nicollyrochadacaldossantos/',
-            )
-          }
-        >
-          Linkedin
-        </div>
-        {language === 'BR' && (
-          <div
-            className="cursor-pointer underline text-pink-400"
-            onClick={() =>
-              window.open(
-                'https://drive.google.com/file/d/1I46xNG23m5809iKcbOhCOs4KU2ah0mxB/view?usp=sharing',
-              )
-            }
-          >
-            Currículo
-          </div>
-        )}
-        {language === 'US' && (
-          <div
-            className="cursor-pointer underline text-pink-400"
-            onClick={() =>
-              window.open(
-                'https://drive.google.com/file/d/1KXTl9uI6iTmb8gZxNKowNM-wuB0ESt0C/view?usp=sharing',
-              )
-            }
-          >
-            Resume
-          </div>
-        )}
-      </div>
-    </div>
-  )
-}
+	const resumeLink =
+		language === 'BR'
+			? 'https://drive.google.com/file/d/1nIGVtTxaWt2oVXxzldyTcupRSC9Do59i/view?usp=sharing'
+			: 'https://drive.google.com/file/d/1xwtes0v_7d1J0MNjKWdOoHjrnaYX_ick/view?usp=sharing';
+
+	return (
+		<div className='flex flex-col gap-3 w-full'>
+			<button
+				onClick={() => window.open('https://github.com/nicollyrocha', '_blank', 'noopener,noreferrer')}
+				className='flex items-center gap-3 bg-gray-50 hover:bg-gray-100 transition-colors rounded-xl px-4 py-3 text-sm font-medium text-gray-700'
+			>
+				<span className='material-icons text-base'>code</span>
+				GitHub
+			</button>
+			<button
+				onClick={() =>
+					window.open(
+						'https://www.linkedin.com/in/nicollyrochadacaldossantos/',
+						'_blank',
+						'noopener,noreferrer',
+					)
+				}
+				className='flex items-center gap-3 bg-sky-50 hover:bg-sky-100 transition-colors rounded-xl px-4 py-3 text-sm font-medium text-sky-700'
+			>
+				<span className='material-icons text-base'>business_center</span>
+				LinkedIn
+			</button>
+			<button
+				onClick={() => window.open(resumeLink, '_blank', 'noopener,noreferrer')}
+				className='flex items-center gap-3 bg-brand-50 hover:bg-brand-100 transition-colors rounded-xl px-4 py-3 text-sm font-medium text-brand-700'
+			>
+				<span className='material-icons text-base'>description</span>
+				{language === 'BR' ? 'Currículo' : 'Resume'}
+			</button>
+		</div>
+	);
+};

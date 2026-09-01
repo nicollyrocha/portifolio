@@ -30,11 +30,11 @@ export const NodeSvg = () => (
 				gradientTransform='translate(0 24.664) scale(1.51263)'
 				gradientUnits='userSpaceOnUse'
 			>
-				<stop stop-color='#FF1493'></stop>
-				<stop offset='.33' stop-color='#FF1493'></stop>
-				<stop offset='.637' stop-color='#FF69B4'></stop>
-				<stop offset='.934' stop-color='#FF69B4'></stop>
-				<stop offset='1' stop-color='#FF1493'></stop>
+				<stop stopColor='#FF1493'></stop>
+				<stop offset='.33' stopColor='#FF1493'></stop>
+				<stop offset='.637' stopColor='#FF69B4'></stop>
+				<stop offset='.934' stopColor='#FF69B4'></stop>
+				<stop offset='1' stopColor='#FF1493'></stop>
 			</linearGradient>
 			<linearGradient
 				id='b'
@@ -45,10 +45,10 @@ export const NodeSvg = () => (
 				gradientTransform='translate(0 24.664) scale(1.51263)'
 				gradientUnits='userSpaceOnUse'
 			>
-				<stop offset='.138' stop-color='#C71585'></stop>
-				<stop offset='.402' stop-color='#DB7093'></stop>
-				<stop offset='.713' stop-color='#64B749'></stop>
-				<stop offset='.908' stop-color='#6ABF4B'></stop>
+				<stop offset='.138' stopColor='#C71585'></stop>
+				<stop offset='.402' stopColor='#DB7093'></stop>
+				<stop offset='.713' stopColor='#64B749'></stop>
+				<stop offset='.908' stopColor='#6ABF4B'></stop>
 			</linearGradient>
 			<linearGradient
 				id='c'
@@ -59,10 +59,10 @@ export const NodeSvg = () => (
 				gradientTransform='translate(0 24.664) scale(1.51263)'
 				gradientUnits='userSpaceOnUse'
 			>
-				<stop offset='.092' stop-color='#FFC0CB'></stop>
-				<stop offset='.287' stop-color='#FFB6C1'></stop>
-				<stop offset='.598' stop-color='#FF69B4'></stop>
-				<stop offset='.862' stop-color='#DB7093'></stop>
+				<stop offset='.092' stopColor='#FFC0CB'></stop>
+				<stop offset='.287' stopColor='#FFB6C1'></stop>
+				<stop offset='.598' stopColor='#FF69B4'></stop>
+				<stop offset='.862' stopColor='#DB7093'></stop>
 			</linearGradient>
 		</defs>
 	</svg>
