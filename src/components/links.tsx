@@ -5,8 +5,8 @@ export const Links = () => {
 
 	const resumeLink =
 		language === 'BR'
-			? 'https://drive.google.com/file/d/1nIGVtTxaWt2oVXxzldyTcupRSC9Do59i/view?usp=sharing'
-			: 'https://drive.google.com/file/d/1xwtes0v_7d1J0MNjKWdOoHjrnaYX_ick/view?usp=sharing';
+			? 'https://drive.google.com/file/d/1qyTcLOznkTcCOlWAAaryZ-lUUtHeextu/view?usp=sharing'
+			: 'https://drive.google.com/file/d/19UAs3M0OrP4w59QwsL8sGGB67OH4Gclq/view?usp=sharing';
 
 	return (
 		<div className='flex flex-col gap-3 w-full'>
