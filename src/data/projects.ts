@@ -17,8 +17,8 @@ export const projects: Project[] = [
 		descriptionEnglish:
 			'Foundation for a full CRM: complete authentication (login, password recovery, email change), user account and landing page, ready to receive contacts and sales-pipeline features.',
 		stack: ['Next.js', 'TypeScript', 'Postgres', 'Drizzle ORM', 'Tailwind'],
-		link: 'https://sistema-crm-alpha.vercel.app',
-		github: 'https://github.com/nicollyrocha/sistema-crm',
+		link: 'https://vertice-crm-ten.vercel.app/',
+		github: 'https://github.com/nicollyrocha/vertice-crm',
 	},
 	{
 		name: 'Sistema Kanban',
