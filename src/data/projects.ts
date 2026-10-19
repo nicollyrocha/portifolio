@@ -13,10 +13,10 @@ export const projects: Project[] = [
 		name: 'Sistema CRM',
 		nameEnglish: 'CRM System',
 		description:
-			'Alicerce de um CRM completo: autenticação (login, recuperação de senha, troca de email), conta de usuário e landing page, pronto para receber as funcionalidades de contatos e funil de vendas.',
+			'Projeto feito com vibe coding, desenvolvido com apoio de IA. Alicerce de um CRM completo: autenticação (login, recuperação de senha, troca de email), conta de usuário e landing page, pronto para receber as funcionalidades de contatos e funil de vendas.',
 		descriptionEnglish:
-			'Foundation for a full CRM: complete authentication (login, password recovery, email change), user account and landing page, ready to receive contacts and sales-pipeline features.',
-		stack: ['Next.js', 'TypeScript', 'Postgres', 'Drizzle ORM', 'Tailwind'],
+			'Vibe coding project, built with AI assistance. Foundation for a full CRM: complete authentication (login, password recovery, email change), user account and landing page, ready to receive contacts and sales-pipeline features.',
+		stack: ['Vibe coding', 'Next.js', 'TypeScript', 'Postgres', 'Drizzle ORM', 'Tailwind'],
 		link: 'https://vertice-crm-ten.vercel.app/',
 		github: 'https://github.com/nicollyrocha/vertice-crm',
 	},
@@ -24,10 +24,10 @@ export const projects: Project[] = [
 		name: 'Sistema Kanban',
 		nameEnglish: 'Kanban System',
 		description:
-			'Quadro kanban para organizar projetos e tarefas com colunas, cartões, etiquetas coloridas, prazos e arrastar-e-soltar.',
+			'Projeto feito com vibe coding, desenvolvido com apoio de IA. Quadro kanban para organizar projetos e tarefas com colunas, cartões, etiquetas coloridas, prazos e arrastar-e-soltar.',
 		descriptionEnglish:
-			'Kanban board to organize projects and tasks with columns, cards, color-coded labels, deadlines and drag-and-drop.',
-		stack: ['Next.js', 'TypeScript', 'Tailwind'],
+			'Vibe coding project, built with AI assistance. Kanban board to organize projects and tasks with columns, cards, color-coded labels, deadlines and drag-and-drop.',
+		stack: ['Vibe coding', 'Next.js', 'TypeScript', 'Tailwind'],
 		link: 'https://sistema-kanban-flame.vercel.app',
 		github: 'https://github.com/nicollyrocha/sistema-kanban',
 	},
